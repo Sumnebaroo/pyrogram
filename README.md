@@ -22,7 +22,16 @@
     </a>
 </p>
 
-## Installing Fork (Debian)
+## Install Fork
+```
+pip install https://github.com/KurimuzonAkuma/pyrogram/archive/dev.zip
+```
+or
+```
+pip3 install https://github.com/KurimuzonAkuma/pyrogram/archive/dev.zip
+```
+
+## Build from source (Debian)
 >**One-line install**
 
 ```
