@@ -29,6 +29,17 @@
 sudo apt-get update && sudo apt-get update && sudo apt-get install python3 python3-venv git -y && git clone https://github.com/KurimuzonAkuma/pyrogram.git && cd pyrogram && make && python3 setup.py bdist_wheel && pip3 install dist/Pyrogram-*
 ```
 
+>**Updating**
+
+In cloned directory, pull new changes:
+```
+git pull
+```
+Re-Install wheel:
+```
+make && rm -rf dist && python3 setup.py bdist_wheel && pip3 install dist/Pyrogram-*
+```
+
 >**Building Wheel**
 
 Firstly, make sure to install python and git packages:
@@ -50,7 +61,7 @@ python3 setup.py bdist_wheel
 
 >**Installiing Wheel**
 
-After successfull wheel build, you can access it under `dist/` folder:
+After successfull wheel build, you can find it under `dist/` folder:
 ```
 cd dist
 ```
