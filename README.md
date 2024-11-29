@@ -26,7 +26,7 @@
 >**One-line install**
 
 ```
-sudo apt-get update && sudo apt-get update && sudo apt-get install python3 python3-venv git -y && git clone https://github.com/KurimuzonAkuma/pyrogram.git && cd pyrogram && make && python3 setup.py bdist_wheel && pip3 install dist/Pyrogram-*
+sudo apt-get update && sudo apt-get update && sudo apt-get install python3 python3-venv git build-essential -y && git clone https://github.com/KurimuzonAkuma/pyrogram.git && cd pyrogram && make && python3 setup.py bdist_wheel && pip3 install dist/Pyrogram-*
 ```
 
 >**Updating**
@@ -44,7 +44,7 @@ make && rm -rf dist && python3 setup.py bdist_wheel && pip3 install dist/Pyrogra
 
 Firstly, make sure to install python and git packages:
 ```
-sudo apt-get update && sudo apt-get install python3 python3-venv git -y
+sudo apt-get update && sudo apt-get install python3 python3-venv git build-essential -y
 ```
 Then, clone this repository:
 ```
