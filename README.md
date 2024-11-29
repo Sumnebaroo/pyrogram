@@ -22,6 +22,43 @@
     </a>
 </p>
 
+## Installing Fork (Debian)
+>**One-line install**
+
+```
+sudo apt-get update && sudo apt-get update && sudo apt-get install python3 python3-venv git -y && git clone https://github.com/KurimuzonAkuma/pyrogram.git && cd pyrogram && make && python3 setup.py bdist_wheel && pip3 install dist/Pyrogram-*
+```
+
+>**Building Wheel**
+
+Firstly, make sure to install python and git packages:
+```
+sudo apt-get update && sudo apt-get install python3 python3-venv git -y
+```
+Then, clone this repository:
+```
+git clone https://github.com/KurimuzonAkuma/pyrogram.git
+```
+Enter directory and make prepare virtual environment:
+```
+cd pyrogram && make
+```
+Finally, run setup.py:
+```
+python3 setup.py bdist_wheel
+```
+
+>**Installiing Wheel**
+
+After successfull wheel build, you can access it under `dist/` folder:
+```
+cd dist
+```
+You can now install built wheel on any other machine:
+```
+pip3 install Pyrogram-*
+```
+
 ## Pyrogram
 
 > Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots
