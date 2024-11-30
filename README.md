@@ -55,11 +55,11 @@ Firstly, make sure to install python and git packages:
 ```
 sudo apt-get update && sudo apt-get install python3 python3-venv git build-essential -y
 ```
-Then, clone this repository:
+Then clone this fork:
 ```
 git clone https://github.com/KurimuzonAkuma/pyrogram.git
 ```
-Enter directory and make prepare virtual environment:
+Enter directory and prepare virtual environment:
 ```
 cd pyrogram && make
 ```
@@ -70,11 +70,11 @@ python3 setup.py bdist_wheel
 
 >**Installiing Wheel**
 
-After successfull wheel build, you can find it under `dist/` folder:
+After successful wheel build, you can find it under `dist/` folder:
 ```
 cd dist
 ```
-You can now install built wheel on any other machine:
+Install built wheel:
 ```
 pip3 install Pyrogram-*
 ```
