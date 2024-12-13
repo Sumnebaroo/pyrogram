@@ -1,30 +1,26 @@
 <p align="center">
-    <a href="https://github.com/pyrogram/pyrogram">
+    <a href="https://github.com/KurimuzonAkuma/pyrogram">
         <img src="https://docs.pyrogram.org/_static/pyrogram.png" alt="Pyrogram" width="128">
     </a>
     <br>
     <b>Telegram MTProto API Framework for Python</b>
     <br>
-    <a href="https://pyrogram.org">
+    <a href="https://docs.kurigram.xyz/">
         Homepage
     </a>
     •
-    <a href="https://docs.pyrogram.org">
+    <a href="https://docs.kurigram.xyz/">
         Documentation
     </a>
     •
-    <a href="https://docs.pyrogram.org/releases">
-        Releases
-    </a>
-    •
-    <a href="https://t.me/pyrogram">
+    <a href="https://t.me/kurigram_news">
         News
     </a>
 </p>
 
-## Pyrogram
+## Kurigram (Pyrogram Fork)
 
-> Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots
+> Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots.
 
 ``` python
 from pyrogram import Client, filters
@@ -40,7 +36,7 @@ async def hello(client, message):
 app.run()
 ```
 
-**Pyrogram** is a modern, elegant and asynchronous [MTProto API](https://docs.pyrogram.org/topics/mtproto-vs-botapi)
+**Kurigram** is a modern, elegant and asynchronous [MTProto API](https://docs.pyrogram.org/topics/mtproto-vs-botapi)
 framework. It enables you to easily interact with the main Telegram API through a user account (custom client) or a bot
 identity (bot API alternative) using Python.
 
@@ -48,9 +44,12 @@ identity (bot API alternative) using Python.
 
 If you'd like to support Pyrogram, you can consider:
 
-- [Become a GitHub sponsor](https://github.com/sponsors/delivrance).
-- [Become a LiberaPay patron](https://liberapay.com/delivrance).
-- [Become an OpenCollective backer](https://opencollective.com/pyrogram).
+kurimuzonakuma.ton - TON 💎
+bc1qjpqxu6xjnanukwxhkycnfc6hpmw8ga7xssvv0e - BTC 💰
+TCbZ7CSpTvTJ6rno2eoWWYBx7hmYF75wk3 - USDT (TRC20) 💰
+0x7626762a033e8430664532DCa898748A1F2a7699 - ETH 🔹
+https://t.me/xrocket?start=inv_15cUGLLK9WTeVqE - xRocket TON 🚀
+https://t.me/xrocket?start=inv_iKYwB0dsK05ynIe - xRocket USDT 🚀
 
 ### Key Features
 
@@ -65,11 +64,11 @@ If you'd like to support Pyrogram, you can consider:
 ### Installing
 
 ``` bash
-pip3 install pyrogram
+pip install https://github.com/KurimuzonAkuma/pyrogram/archive/dev.zip --force-reinstall
 ```
 
 ### Resources
 
-- Check out the docs at https://docs.pyrogram.org to learn more about Pyrogram, get started right
+- Check out the docs at https://docs.kurigram.xyz/ to learn more about Pyrogram, get started right
 away and discover more in-depth material for building your client applications.
-- Join the official channel at https://t.me/pyrogram and stay tuned for news, updates and announcements.
+- Join the official channel at https://t.me/kurigram_news and stay tuned for news, updates and announcements.
