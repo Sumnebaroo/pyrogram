@@ -1,6 +1,7 @@
 on:
   push:
-    branches: [ Production ]
+    tags:
+      - 'v*'
 
 permissions: write-all
 
@@ -62,6 +63,6 @@ jobs:
         with:
           # upload_url: ${{ steps.create_release.outputs.upload_url }}
           tag_name: ${{ env.CURRENT_LIB_VERSION }}
-          files: dist/${{ env.name }}
+          files: dist/*
           # asset_name: ${{ env.name }}
           # asset_content_type: application/zip
