@@ -81,5 +81,5 @@ pip3 install https://github.com/KurimuzonAkuma/pyrogram/archive/dev.zip --force-
 
 - Check out the [docs](https://docs.kurigram.xyz) to learn more about Pyrogram, get started right
 away and discover more in-depth material for building your client applications.
-- Join the [official channel](https://kurigram_news.t.me) and stay tuned for news, updates and announcements.
-- Join the [official chat](https://kurigram_chat.t.me) to communicate with people.
+- Join the [official channel](https://t.me/kurigram_news) and stay tuned for news, updates and announcements.
+- Join the [official chat](https://t.me/kurigram_chat) to communicate with people.
